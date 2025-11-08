@@ -1,4 +1,4 @@
-import { ComponentInstance } from '../actions/index.js';
+import { ComponentInstance } from '../actions';
 
 export interface GridCellInfo {
   row: number;

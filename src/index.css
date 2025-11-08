@@ -1,10 +1,3 @@
-/* Base styles for demo app only - not exported with library */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

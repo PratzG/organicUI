@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Send } from 'lucide-react';
-import { ComponentInstance } from '../actions/index.js';
-import TestButton from '../components/testButton.js';
-import MultipleChoice from '../components/multipleChoice.js';
+import { ComponentInstance } from '../actions';
+import TestButton from '../components/testButton';
+import MultipleChoice from '../components/multipleChoice';
 import '../styles/pages.css';
 
 interface Message {
@@ -71,7 +71,7 @@ const ChatCanvas: React.FC<ChatCanvasProps> = ({ components = [], messages: exte
                 <TestButton
                   type={component.type}
                   position={component.position}
-                  metadata={component.metadata as any}
+                  metadata={component.metadata}
                   inChat={true}
                 />
               </div>
@@ -87,7 +87,7 @@ const ChatCanvas: React.FC<ChatCanvasProps> = ({ components = [], messages: exte
                 <MultipleChoice
                   type={component.type}
                   position={component.position}
-                  metadata={component.metadata as any}
+                  metadata={component.metadata}
                   inChat={true}
                 />
               </div>

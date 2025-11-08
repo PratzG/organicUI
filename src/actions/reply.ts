@@ -1,4 +1,4 @@
-import { ComponentInstance, ReplyActionPayload } from './types.js';
+import { ComponentInstance, ReplyActionPayload } from './types';
 
 /**
  * Creates a reply action payload for rendering a component in chat

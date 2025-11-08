@@ -1,7 +1,7 @@
 import React from 'react';
-import { ComponentInstance } from '../actions/index.js';
-import TestButton from '../components/testButton.js';
-import MultipleChoice from '../components/multipleChoice.js';
+import { ComponentInstance } from '../actions';
+import TestButton from '../components/testButton';
+import MultipleChoice from '../components/multipleChoice';
 import '../styles/pages.css';
 
 interface OrganicCanvasProps {
@@ -29,7 +29,7 @@ const OrganicCanvas: React.FC<OrganicCanvasProps> = ({
             key={component.id}
             type={component.type}
             position={component.position}
-            metadata={component.metadata as any}
+            metadata={component.metadata}
           />
         );
       case 'multipleChoice':
@@ -38,7 +38,7 @@ const OrganicCanvas: React.FC<OrganicCanvasProps> = ({
             key={component.id}
             type={component.type}
             position={component.position}
-            metadata={component.metadata as any}
+            metadata={component.metadata}
           />
         );
       default:

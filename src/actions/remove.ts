@@ -1,4 +1,4 @@
-import { ComponentInstance, RemoveActionPayload } from './types.js';
+import { ComponentInstance, RemoveActionPayload } from './types';
 
 /**
  * Removes a component from the components array by its ID

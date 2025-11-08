@@ -1,14 +1,15 @@
-import { ComponentInstance, Action, AddActionPayload, RemoveActionPayload, PlaceActionPayload } from './types.js';
-import { addComponent } from './add.js';
-import { removeComponent } from './remove.js';
-import { placeComponent } from './place.js';
+import { ComponentInstance, Action, AddActionPayload, RemoveActionPayload, PlaceActionPayload } from './types';
+import { addComponent } from './add';
+import { removeComponent } from './remove';
+import { placeComponent } from './place';
+import { createReply } from './reply';
 
 // Export all types and action functions for external use
-export * from './types.js';
-export { addComponent } from './add.js';
-export { removeComponent } from './remove.js';
-export { placeComponent } from './place.js';
-export { createReply } from './reply.js';
+export * from './types';
+export { addComponent } from './add';
+export { removeComponent } from './remove';
+export { placeComponent } from './place';
+export { createReply } from './reply';
 
 /**
  * Central action executor that processes component actions
