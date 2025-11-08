@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import OrganicCanvas from './pages/organicCanvas';
-import ChatCanvas from './pages/chatCanvas';
-import Test from './pages/test';
+import OrganicCanvas from './organicUI/pages/organicCanvas';
+import ChatCanvas from './organicUI/pages/chatCanvas';
+import Test from './organicUI/pages/test';
 
 type Page = 'test' | 'organicCanvas' | 'chatCanvas';
 
