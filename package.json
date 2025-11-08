@@ -2,6 +2,8 @@
   "name": "organicui",
   "private": false,
   "version": "1.0.0",
+  "description": "Organic UI library with interactive canvas components and multiple choice interactions",
+  "keywords": ["react", "ui", "canvas", "organic", "interactive"],
   "type": "module",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
@@ -22,6 +24,7 @@
     "build": "npm run build:lib && vite build",
     "build:lib": "tsc --project tsconfig.lib.json && npm run build:css",
     "build:css": "cat src/styles/components.css src/styles/pages.css > lib/styles.css",
+    "prepare": "npm run build:lib",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
   },

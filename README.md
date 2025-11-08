@@ -4,16 +4,57 @@ A React component library for building dynamic, grid-based canvases and chat int
 
 ## Installation
 
+### From Git Repository
+
 Install directly from Git:
 
 ```bash
-npm install git+https://github.com/PratzG/organicUI.git
+npm install git+https://github.com/yourusername/organicui.git
 ```
 
-Or using a specific branch:
+Or using a specific branch or tag:
 
 ```bash
-npm install git+https://github.com/PratzG/organicUI.git#main
+npm install git+https://github.com/yourusername/organicui.git#main
+npm install git+https://github.com/yourusername/organicui.git#v1.0.0
+```
+
+Or using a commit hash:
+
+```bash
+npm install git+https://github.com/yourusername/organicui.git#commit-hash
+```
+
+### Private Repositories
+
+For private repositories, use SSH:
+
+```bash
+npm install git+ssh://git@github.com:yourusername/organicui.git
+```
+
+Or with a personal access token:
+
+```bash
+npm install git+https://YOUR_TOKEN@github.com/yourusername/organicui.git
+```
+
+### Using package.json
+
+Add to your dependencies:
+
+```json
+{
+  "dependencies": {
+    "organicui": "git+https://github.com/yourusername/organicui.git#main"
+  }
+}
+```
+
+Then run:
+
+```bash
+npm install
 ```
 
 ## Features
