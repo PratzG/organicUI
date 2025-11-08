@@ -1,4 +1,4 @@
-import { ComponentInstance, AddActionPayload } from './types';
+import { ComponentInstance, AddActionPayload } from './types.js';
 
 /**
  * Adds a new component to the components array

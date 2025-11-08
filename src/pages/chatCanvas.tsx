@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Send } from 'lucide-react';
-import { ComponentInstance } from '../actions';
-import TestButton from '../components/testButton';
-import MultipleChoice from '../components/multipleChoice';
+import { ComponentInstance } from '../actions/index.js';
+import TestButton from '../components/testButton.js';
+import MultipleChoice from '../components/multipleChoice.js';
 import '../styles/pages.css';
 
 interface Message {

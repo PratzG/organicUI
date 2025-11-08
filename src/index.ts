@@ -1,11 +1,11 @@
-export { default as OrganicCanvas } from './pages/organicCanvas';
-export { default as ChatCanvas } from './pages/chatCanvas';
-export { default as TestButton } from './components/testButton';
-export { default as MultipleChoice } from './components/multipleChoice';
+export { default as OrganicCanvas } from './pages/organicCanvas.js';
+export { default as ChatCanvas } from './pages/chatCanvas.js';
+export { default as TestButton } from './components/testButton.js';
+export { default as MultipleChoice } from './components/multipleChoice.js';
 
-export * from './actions';
-export * from './actions/types';
-export * from './services/organicCanvasService';
+export * from './actions/index.js';
+export * from './actions/types.js';
+export * from './services/organicCanvasService.js';
 
-export type { Position, TestButtonMetadata, TestButtonProps } from './components/testButton';
-export type { MultipleChoiceMetadata, MultipleChoiceProps } from './components/multipleChoice';
+export type { Position, TestButtonMetadata, TestButtonProps } from './components/testButton.js';
+export type { MultipleChoiceMetadata, MultipleChoiceProps } from './components/multipleChoice.js';

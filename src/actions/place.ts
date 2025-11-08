@@ -1,4 +1,4 @@
-import { ComponentInstance, PlaceActionPayload } from './types';
+import { ComponentInstance, PlaceActionPayload } from './types.js';
 
 /**
  * Places or moves a component to a new position on the OrganicCanvas
